@@ -1,0 +1,2 @@
+# quant
+Basic trading robot
