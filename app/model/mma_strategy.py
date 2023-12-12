@@ -1,19 +1,21 @@
-from .strategy import Strategy
-import numpy as np
+from controller.strategy_manager import Strategy
 
 class MMAStrategy(Strategy):
 
-    def __init__(self,nperiods:int):
+    def __init__(self,nperiods:int,**kwargs):
         self.nperiods = nperiods
         self.vprices = []
-        super().__init__()
+        Strategy.__init__(self,**kwargs)
 
-    def buy(self,mma,px):
-        print(f"Buy mma:{mma} px:{px}")
-        pass
+    def buy(self,px):
+        print(f"Buy - {px}")
+        
 
     def sell(self):
         print("Sell")
+        pass
+
+    def execute_stop(self):
         pass
 
     def clc_mma(self,value:float):
@@ -26,9 +28,10 @@ class MMAStrategy(Strategy):
             return round(sum(self.vprices)/self.nperiods,2)
 
 
-    def update(self,barData:float):
-        px = float(barData['close'])
+    def update(self,value):
+        px = value['price']
         mma = self.clc_mma(px)
+        print(f"px: {px}, mma:{mma}")
         if px < mma:
-            self.buy(mma,px)
-
+            future = self.ibApi.executor.submit(self.buy,px)
+            self.ibApi._futures.update({'buy': future})

@@ -1,9 +1,12 @@
+from ibapi.common import Decimal, TickAttrib, TickerId
+from ibapi.ticktype import TickType
+from ibapi.utils import Decimal
 from ibapi.wrapper import *
 from typing import List
 import json
 
 class Wrapper(EWrapper):
-
+    nextOrderID = 1
     def __init__(self):
         EWrapper.__init__(self)
         self._observers = []
@@ -31,10 +34,11 @@ class Wrapper(EWrapper):
             observer.update(value)
 
     def error(self, reqId: TickerId, errorCode: int, errorString: str, advancedOrderRejectJson=""):
-        print("***")
+        print(reqId, errorCode, errorString, advancedOrderRejectJson)
         return super().error(reqId, errorCode, errorString, advancedOrderRejectJson)
 
     def nextValidId(self, orderId: int):
+        self.nextOrderID = orderId
         return super().nextValidId(orderId)
 
     def currentTime(self, time: int):
@@ -52,6 +56,10 @@ class Wrapper(EWrapper):
     def contractDetails(self, reqId: int, contractDetails: ContractDetails):
         return super().contractDetails(reqId, contractDetails)
     
+
+    def tickPrice(self, reqId: TickerId, tickType: TickType, price: float, attrib: TickAttrib):
+        self.notify({'reqId':reqId, 'tickType':tickType, 'price':price, 'attrib': attrib})
+
     def sim_rtData(self,barData:dict):
         for i in barData:
             self.notify(i)
