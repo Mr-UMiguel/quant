@@ -1,5 +1,3 @@
-
-
 class MoneyManager:
     _instance = None
     _initialized = False

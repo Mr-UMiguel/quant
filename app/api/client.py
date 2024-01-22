@@ -24,11 +24,11 @@ class Client(EClient):
         pass
 
     def connect(self, host, port, clientId):
-        print("Connection Established")
+        print("Connection Established hola Lau")
         return super().connect(host, port, clientId)
     
     def disconnect(self):
-        print("Connection has been disconnected")
+        print("Connection has been disconnected chao Lau")
         if self._futures['run'].running():
             self._futures['run'].cancel()
         return super().disconnect()

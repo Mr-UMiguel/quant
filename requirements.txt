@@ -1,0 +1,192 @@
+anyio==3.6.1
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asgiref==3.7.2
+astroid @ file:///C:/ci/astroid_1613501047216/work
+asttokens==2.0.5
+attrs==21.4.0
+Babel==2.10.3
+backcall==0.2.0
+backports.zoneinfo==0.2.1
+beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup4_1631087867185/work
+bleach==5.0.0
+brotlipy==0.7.0
+bs4==0.0.1
+camelot-py==0.10.1
+certifi==2021.10.8
+cffi @ file:///C:/ci/cffi_1605538112425/work
+chardet @ file:///C:/ci/chardet_1605303225733/work
+charset-normalizer==2.0.10
+click @ file:///D:/bld/click_1635822830533/work
+cloudpickle==2.0.0
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+conda==4.11.0
+conda-package-handling @ file:///C:/ci/conda-package-handling_1603003327818/work
+contourpy==1.0.5
+croniter==1.2.0
+cryptography @ file:///C:/ci/cryptography_1605526388508/work
+cvxopt==1.3.0
+cycler==0.11.0
+dask==2022.1.0
+debugpy==1.6.0
+decorator==5.1.1
+defusedxml==0.7.1
+distlib==0.3.4
+distributed==2022.1.0
+distro==1.6.0
+Django==4.2.4
+dnspython @ file:///home/conda/feedstock_root/build_artifacts/dnspython_1622405147478/work
+docker==5.0.3
+entrypoints==0.4
+et-xmlfile==1.1.0
+executing==0.8.3
+fastjsonschema==2.15.3
+filelock==3.4.2
+fonttools==4.37.4
+fsspec==2022.1.0
+ghostscript==0.7
+greenlet==1.1.2
+guidata==2.3.0
+guiqwt==4.3.1
+HeapDict==1.0.1
+html5lib @ file:///home/conda/feedstock_root/build_artifacts/html5lib_1592930327044/work
+ibapi @ file:///C:/Programas/TWS%20API/source/pythonclient/dist/ibapi-10.19.1-py3-none-any.whl
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+importlib-metadata==4.12.0
+importlib-resources==5.8.0
+ipykernel==6.15.0
+ipython==8.4.0
+ipython-genutils==0.2.0
+ipywidgets==7.7.0
+isort @ file:///tmp/build/80754af9/isort_1612243941122/work
+jedi==0.18.1
+Jinja2==3.0.3
+json5==0.9.8
+jsonschema==4.6.0
+jupyter==1.0.0
+jupyter-client==7.3.4
+jupyter-console==6.4.3
+jupyter-core==4.10.0
+jupyter-server==1.18.0
+jupyterlab==3.4.3
+jupyterlab-pygments==0.2.2
+jupyterlab-server==2.14.0
+jupyterlab-widgets==1.1.0
+kiwisolver==1.4.4
+lazy-object-proxy @ file:///C:/ci/lazy-object-proxy_1606832051475/work
+locket==0.2.1
+lxml @ file:///D:/bld/lxml_1639527265985/work
+MarkupSafe==2.0.1
+marshmallow==3.14.1
+marshmallow-oneofschema==3.0.1
+matplotlib==3.6.1
+matplotlib-inline==0.1.3
+mccabe==0.6.1
+menuinst==1.4.16
+mistune==0.8.4
+msgpack==1.0.3
+multitasking==0.0.11
+mypy-extensions==0.4.3
+mysql-connector-python==8.0.25
+nbclassic==0.4.0
+nbclient==0.6.4
+nbconvert==6.5.0
+nbformat==5.4.0
+nest-asyncio==1.5.5
+notebook==6.4.12
+notebook-shim==0.1.0
+numpy==1.22.4
+opencv-python==4.5.5.62
+openpyxl==3.0.9
+packaging==21.3
+pandas==1.4.2
+pandocfilters==1.5.0
+parso==0.8.3
+partd==1.2.0
+pdfminer.six==20211012
+pdftopng==0.2.3
+pendulum==2.1.2
+pickleshare==0.7.5
+Pillow==9.2.0
+platformdirs==2.4.1
+playwright==1.22.0
+prefect==1.2.2
+prometheus-client==0.14.1
+prompt-toolkit==3.0.29
+protobuf==3.16.0
+psutil==5.9.0
+pure-eval==0.2.2
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyee==8.1.0
+Pygments==2.12.0
+pylint @ file:///C:/ci/pylint_1614971486505/work
+pyodbc==4.0.32
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1605545627475/work
+pyparsing==3.0.7
+PyPDF2==1.26.0
+pyqt-tools==1.0.0
+PyQt5==5.15.7
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.11.0
+PyQt6==6.1.0
+pyqt6-plugins==6.1.0.2.2
+PyQt6-Qt6==6.4.0
+PyQt6-sip==13.4.0
+pyqt6-tools==6.1.0.3.2
+pyrsistent==0.18.1
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
+python-box==5.4.1
+python-dateutil==2.8.2
+python-dotenv==0.21.0
+python-slugify==5.0.2
+PythonQwt==0.10.2
+pytz==2021.3
+pytzdata==2020.1
+pywin32==227
+pywinpty==2.0.5
+PyYAML==6.0
+pyzmq==23.2.0
+qt6-applications==6.1.0.2.2
+qt6-tools==6.1.0.1.2
+qtconsole==5.3.1
+QtPy==2.1.0
+requests==2.27.1
+ruamel-yaml==0.15.87
+scipy==1.9.1
+seaborn==0.12.0
+Send2Trash==1.8.0
+six @ file:///C:/ci/six_1605187374963/work
+sniffio==1.2.0
+sortedcontainers==2.4.0
+soupsieve @ file:///home/conda/feedstock_root/build_artifacts/soupsieve_1638550740809/work
+sqlparse==0.4.4
+stack-data==0.3.0
+tabula-py==2.3.0
+tabulate==0.8.9
+tblib==1.7.0
+terminado==0.15.0
+text-unidecode==1.3
+tinycss2==1.1.1
+toml @ file:///tmp/build/80754af9/toml_1592853716807/work
+toolz==0.11.2
+tornado==6.1
+tqdm @ file:///tmp/build/80754af9/tqdm_1605303662894/work
+traitlets==5.3.0
+typing-extensions==4.2.0
+tzdata==2023.3
+urllib3==1.26.8
+virtualenv==20.13.0
+wcwidth==0.2.5
+webencodings==0.5.1
+websocket-client==1.2.3
+websockets==10.1
+widgetsnbextension==3.6.0
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+wincertstore==0.2
+wrapt==1.12.1
+xlrd==2.0.1
+xlwings==0.27.10
+yfinance==0.1.72
+zict==2.0.0
+zipp==3.8.0
